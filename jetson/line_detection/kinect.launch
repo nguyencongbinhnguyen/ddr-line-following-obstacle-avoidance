@@ -1,0 +1,9 @@
+<launch>
+  <node name="kinect_line_node" pkg="kinect_line_detector" type="kinect_line_node_12_9.py" output="screen">
+    <param name="show_image" value="true"/>
+    <param name="show_trackbars" value="false"/>
+    <param name="publish_debug_image" value="false"/>
+    <param name="frame_id" value="kinect_frame"/>
+    <param name="rate" value="60"/>
+  </node>
+</launch>
