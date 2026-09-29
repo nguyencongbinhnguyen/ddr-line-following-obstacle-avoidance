@@ -1,0 +1,7 @@
+<launch>
+  <node name="fusion_control_node" pkg="robot_fusion_control" type="fusion_control_test.py" output="screen">
+    <param name="port" value="/dev/arduino"/>
+    <param name="baudrate" value="115200"/>
+    <param name="enable_avoidance" value="true"/>
+  </node>
+</launch>
